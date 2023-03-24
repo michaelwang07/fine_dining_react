@@ -51,6 +51,15 @@
     font-size: 23px;
   }
 
+  .headtext__cormorant {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+  }
+
   .app__wrapper {
     display: flex;
     justify-content: space-between;
@@ -83,4 +92,21 @@
   
     margin-left: 2rem;
   }
+
+  .app__bg {
+    background: url('./assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+
+  .flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .spoon__img {
+    width: 45px;
+  }
