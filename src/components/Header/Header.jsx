@@ -1,6 +1,6 @@
 import React from 'react';
-import Subheading from '../Subheading/Subheading';
-import { images } from '../../assets/images'
+import Subheading from '../../templates/Subheading/Subheading';
+import { images } from '../../assets/exports/images'
 import './header.css';
 
 const Header = () => {

@@ -1,8 +1,9 @@
 import React from 'react'
+import './app.css'
 import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header'
 import About from './components/About/About'
-import './app.css'
+import SpecialMenu from './components/Menu/SpecialMenu'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Header />
       <About />
+      <SpecialMenu />
     </div>
   )
 }
