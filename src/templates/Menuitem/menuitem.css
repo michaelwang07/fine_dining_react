@@ -1,0 +1,32 @@
+.app__menuitem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.app__menuitem-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__menuitem-dash {
+  background: #FAFAFA;
+  width: 90px;
+  height: 1px;
+  margin: 0 2rem;
+}
+
+.app__menuitem-name {
+  flex: 1;
+}
+
+.app__menuitem-sub p{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
