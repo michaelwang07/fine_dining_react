@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import About from './components/About/About'
 import SpecialMenu from './components/Menu/SpecialMenu'
 import Chef from './components/Chef/Chef'
+import Intro from './components/Intro/Intro'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <SpecialMenu />
       <Chef />
+      <Intro />
     </div>
   )
 }
