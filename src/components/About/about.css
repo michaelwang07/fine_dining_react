@@ -72,4 +72,9 @@
   .app__aboutus-content {
     flex-direction: column;
   }
+
+  .app__aboutus-overlay img {
+    max-width: 250px;
+    height: auto;
+  }
 }

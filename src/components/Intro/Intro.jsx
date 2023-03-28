@@ -5,7 +5,7 @@ import  meal from '../../assets/meal.mp4'
 
 const Intro = () => {
   const [playVideo, setplayVideo] = React.useState(false);
-  let vidRef = React.useRef();
+  const vidRef = React.useRef();
 
   const handleVideo = () => {
     setplayVideo((prevPlayVideo) => !prevPlayVideo);

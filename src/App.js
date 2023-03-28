@@ -6,6 +6,7 @@ import About from './components/About/About'
 import SpecialMenu from './components/Menu/SpecialMenu'
 import Chef from './components/Chef/Chef'
 import Intro from './components/Intro/Intro'
+import Laurels from './components/Laurels/Laurels'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <SpecialMenu />
       <Chef />
       <Intro />
+      <Laurels />
     </div>
   )
 }
