@@ -8,6 +8,7 @@ import Chef from './components/Chef/Chef'
 import Intro from './components/Intro/Intro'
 import Laurels from './components/Laurels/Laurels'
 import Gallery from './components/Gallery/Gallery'
+import Contact from './components/Contact/Contact'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Intro />
       <Laurels />
       <Gallery />
+      <Contact />ct
     </div>
   )
 }

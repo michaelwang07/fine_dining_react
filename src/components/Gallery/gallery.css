@@ -87,10 +87,6 @@
   bottom: 5%;
 }
 
-.app__gallery-images_arrows:first-child {
-  
-}
-
 .gallery__arrow-icon {
   color: var(--color-golden);
   font-size: 2rem;
@@ -104,6 +100,9 @@
 }
 
 @media screen and (min-width: 2000px) {
+  .app__gallery {
+    justify-content: space-evenly;
+  }
   .app__gallery-content {
     min-width: 1000;
     padding-right: 6rem;
