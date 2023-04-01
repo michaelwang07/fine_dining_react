@@ -5,7 +5,7 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className='app__header app__wrapper section__padding id="home"'>
+    <div className='app__header app__wrapper section__padding' id="home">
       <div className='app__wrapper_info'>
         <Subheading title="Chase The New Flavour" />
         <h1 className='app__header-h1'>

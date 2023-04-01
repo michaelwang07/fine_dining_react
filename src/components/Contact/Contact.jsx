@@ -5,7 +5,7 @@ import Subheading from '../../templates/Subheading/Subheading'
 
 const Contact = () => {
   return (
-    <div className='app__contact section__padding app__bg flex__center'>
+    <div className='app__contact section__padding app__bg flex__center' id='contact'>
       <div className='app__contact-info'>
         <Subheading title='Contact' />
         <h1 className='headtext__cormorant'>Find Us</h1>

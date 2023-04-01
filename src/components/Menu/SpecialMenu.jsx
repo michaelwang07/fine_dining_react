@@ -7,7 +7,7 @@ import Menuitem from '../../templates/Menuitem/Menuitem'
 
 const SpecialMenu = () => {
   return (
-    <div className='app__menu flex__center section__padding'>
+    <div className="app__menu flex__center section__padding" id='menu'>
       <div className='app__menu-title'>
         < Subheading title="Menu that fits you palatte"/>
         <div style={{marginBottom:'25px'}} className='app__menu-title_main-title'>
